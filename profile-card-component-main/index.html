@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,6 +16,10 @@
 </head>
 <body>
   <section> 
+    <div class="circles">
+      <img class="circle1" src="images/bg-pattern-top.svg" alt="">
+      <img class="circle2" src="images/bg-pattern-bottom.svg" alt="">
+    </div>
     <div class="card">
       <!-- card header -->
       <div class="card-header"></div>
@@ -24,8 +28,8 @@
         <div class="img-holder">
           <img src="images/image-victor.jpg" alt="">
         </div>
-        <h2>
-          Victor Crest
+        <h2 class="name-age">
+          <span class="name">Victor Crest</span>
           <span class="age">26</span>
         </h2>
         <h3 class="location">
@@ -43,7 +47,7 @@
           <h4 class="value-detail">Likes</h4>
         </div>
         <div class="items">
-          <h3 class="value">80K</h3>
+          <h3 class="value">1.4K</h3>
           <h4 class="value-detail">Photos</h4>
         </div>
       </div>
