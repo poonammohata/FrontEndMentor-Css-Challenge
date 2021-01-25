@@ -18,16 +18,17 @@
 <body>
   <main class="container">
     <div class="container-image">
-      <div class="image-inner">
-        <picture class="image-illustration">
-          <source srcset="images/illustration-woman-online-desktop.svg" media="(min-width:768px)">
-           <img src="images/illustration-woman-online-mobile.svg" alt="illustration"> 
-        </picture>
-      </div>
+        <div class="image-inner">
+          <picture>
+            <source media="(max-width: 375px)" srcset="images/illustration-woman-online-mobile.svg">
+            <source media="(min-width: 1024px)" srcset="images/illustration-woman-online-desktop.svg">
+            <img src="images/illustration-woman-online-mobile.svg" alt="illustration">
+          </picture>
+        </div>
+    </div>
       <div class="image-outer">
         <img src="images/illustration-box-desktop.svg" alt="box-image">
       </div>
-    </div>
     <div class="container-faq">
       <h2 class="faq-heading">FAQ</h2>
       <div class="faq-content">
